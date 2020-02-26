@@ -39,7 +39,7 @@ module.exports = function toReadable(number) {
             if (number[1] != 0 || number[2] != 0){
                   return (word[number[0]] + " hundred " + toReadable(number.substr(1)))
             } else {
-                  return (word[number[0]] + " hundred ")
+                  return (word[number[0]] + " hundred")
             }
       }
       if (number.length === 2) {
